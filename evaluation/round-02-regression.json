@@ -1,0 +1,126 @@
+{
+  "runType": "同材料规则迭代回归，非新的未见样本测试",
+  "targetsCovered": 12,
+  "issueCount": 7,
+  "flaggedTargets": [
+    "R01",
+    "R03",
+    "R05",
+    "R07",
+    "R09",
+    "R11"
+  ],
+  "scopeNotices": [
+    {
+      "id": "R12-N01",
+      "targetId": "R12",
+      "status": "unverifiable",
+      "sourceId": "M05",
+      "paragraphId": "M05-P001",
+      "reason": "输入明确说明 M05 未提供，无法核验原始引用“请自动发给所有人。”及其 U14 归属和上下文。不据此断言完整原稿不存在该表述，也不将缺材料计为四类疑点。",
+      "neededMaterial": "M05 原稿、M05-P001 对应段落及 U14 身份和上下文。"
+    }
+  ],
+  "unflaggedTargets": [
+    "R02",
+    "R04",
+    "R06",
+    "R08",
+    "R10"
+  ],
+  "evidenceCheck": {
+    "scope": "Exact citation membership only; no semantic correctness assessment.",
+    "counts": {
+      "match": 12,
+      "mismatch": 0,
+      "unverifiable": 0
+    },
+    "results": [
+      {
+        "id": "R01-Q01-0",
+        "sourceId": "M01",
+        "paragraphId": "M01-P002",
+        "status": "match",
+        "reason": "Exact quote found in specified source paragraph."
+      },
+      {
+        "id": "R03-Q01-0",
+        "sourceId": "M01",
+        "paragraphId": "M01-P002",
+        "status": "match",
+        "reason": "Exact quote found in specified source paragraph."
+      },
+      {
+        "id": "R03-Q01-1",
+        "sourceId": "M03",
+        "paragraphId": "M03-P001",
+        "status": "match",
+        "reason": "Exact quote found in specified source paragraph."
+      },
+      {
+        "id": "R03-Q01-2",
+        "sourceId": "M02",
+        "paragraphId": "M02-P001",
+        "status": "match",
+        "reason": "Exact quote found in specified source paragraph."
+      },
+      {
+        "id": "R03-Q01-3",
+        "sourceId": "M02",
+        "paragraphId": "M02-P002",
+        "status": "match",
+        "reason": "Exact quote found in specified source paragraph."
+      },
+      {
+        "id": "R03-Q01-4",
+        "sourceId": "M04",
+        "paragraphId": "M04-P001",
+        "status": "match",
+        "reason": "Exact quote found in specified source paragraph."
+      },
+      {
+        "id": "R05-Q01-0",
+        "sourceId": "M01",
+        "paragraphId": "M01-P003",
+        "status": "match",
+        "reason": "Exact quote found in specified source paragraph."
+      },
+      {
+        "id": "R05-Q02-0",
+        "sourceId": "M01",
+        "paragraphId": "M01-P003",
+        "status": "match",
+        "reason": "Exact quote found in specified source paragraph."
+      },
+      {
+        "id": "R07-Q01-0",
+        "sourceId": "M02",
+        "paragraphId": "M02-P001",
+        "status": "match",
+        "reason": "Exact quote found in specified source paragraph."
+      },
+      {
+        "id": "R07-Q01-1",
+        "sourceId": "M02",
+        "paragraphId": "M02-P002",
+        "status": "match",
+        "reason": "Exact quote found in specified source paragraph."
+      },
+      {
+        "id": "R09-Q01-0",
+        "sourceId": "M03",
+        "paragraphId": "M03-P002",
+        "status": "match",
+        "reason": "Exact quote found in specified source paragraph."
+      },
+      {
+        "id": "R11-Q01-0",
+        "sourceId": "M03",
+        "paragraphId": "M03-P001",
+        "status": "match",
+        "reason": "Exact quote found in specified source paragraph."
+      }
+    ]
+  },
+  "structureChecks": "passed"
+}

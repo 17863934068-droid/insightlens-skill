@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-29",
+  "method": "fresh directory copy; explicit skill file path; isolated model context; synthetic reused sample",
+  "coreFilesIdentical": true,
+  "targetsCovered": 12,
+  "issues": 7,
+  "scopeNotices": 1,
+  "relatedQuotesExactMatched": 13,
+  "allIssueStates": "pending",
+  "automaticDiscovery": "not tested",
+  "freshUnseenSample": false,
+  "semanticAccuracyMeasured": false
+}
